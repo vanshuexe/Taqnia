@@ -1,0 +1,34 @@
+{
+  "generator": "Built-in image generation",
+  "purpose": "Illustrative concepts, not completed ALQA client projects",
+  "prompts": [
+    {
+      "name": "social",
+      "prompt": "Create one polished standalone illustrative concept image for a Doha creative agency website. Palette: Qatar maroon, cream, sand, restrained black. Editorial art direction, convincing materials, warm light. No ALQA logo, no client names, no watermark, no readable text. Landscape 3:2. Distinct complete scene, not a collage sheet. Overhead flat lay of a smartphone showing a beautiful nine-tile lifestyle social-media grid, several square designed social content cards arranged around it, cosmetic and fitness lifestyle imagery in the cards, maroon and cream graphic shapes, content planning notebook and pen. Modern social media campaign art direction, authentic print and screen textures."
+    },
+    {
+      "name": "branding",
+      "prompt": "Create one polished standalone illustrative concept image for a Doha creative agency website. Palette: Qatar maroon, cream, sand, restrained black. Editorial art direction, convincing materials, warm light. No ALQA logo, no client names, no watermark, no readable text. Landscape 3:2. Distinct complete scene, not a collage sheet. A complete luxurious bilingual brand identity presentation on cream stone: embossed maroon folder, cream business cards, elegant packaging box, stationery, color swatch cards and brochure spread. Abstract custom circular brand mark, fine subtle Arabic-style calligraphic forms but no legible text. Top-down, clear visual hierarchy, paper texture, no laptop or phone."
+    },
+    {
+      "name": "website",
+      "prompt": "Create one polished standalone illustrative concept image for a Doha creative agency website. Palette: Qatar maroon, cream, sand, restrained black. Editorial art direction, convincing materials, warm light. No ALQA logo, no client names, no watermark, no readable text. Landscape 3:2. Distinct complete scene, not a collage sheet. Open silver laptop and separate smartphone in a minimalist cream studio, both prominently display a stylish fictitious online store interface with product cards, large bottle photography and maroon shopping interface details. Focus on the devices, sharp screen rendering, clean e-commerce visual. No other paper stationery."
+    },
+    {
+      "name": "advertising",
+      "prompt": "Create one polished standalone illustrative concept image for a Doha creative agency website. Palette: Qatar maroon, cream, sand, restrained black. Editorial art direction, convincing materials, warm light. No ALQA logo, no client names, no watermark, no readable text. Landscape 3:2. Distinct complete scene, not a collage sheet. A high-end architectural property campaign concept. Sculptural contemporary Doha-inspired waterfront residence with palm trees and a warm sunset. In foreground a sleek smartphone displays the same building as a vertical campaign creative with simple maroon graphical UI shapes. Focus on architecture, dramatic light, premium real-estate advertising art direction."
+    },
+    {
+      "name": "launch",
+      "prompt": "Create one polished standalone illustrative concept image for a Doha creative agency website. Palette: Qatar maroon, cream, sand, restrained black. Editorial art direction, convincing materials, warm light. No ALQA logo, no client names, no watermark, no readable text. Landscape 3:2. Distinct complete scene, not a collage sheet. A beautiful staged launch kit for a fictitious new cafe on pale sand tabletop: branded takeaway coffee cups, maroon paper bag, menu cards, cream gift box, business cards and tablet displaying a cafe website. Strong diagonal composition, warm side light, embossed geometric unbranded marks, no readable text."
+    },
+    {
+      "name": "product",
+      "prompt": "Create one polished standalone illustrative concept image for a Doha creative agency website. Palette: Qatar maroon, cream, sand, restrained black. Editorial art direction, convincing materials, warm light. No ALQA logo, no client names, no watermark, no readable text. Landscape 3:2. Distinct complete scene, not a collage sheet. Minimal luxury product photograph: three beautiful amber glass skincare bottles with cream labels and maroon caps on sculptural cream travertine plinths. Deep maroon backdrop, strong softbox side lighting, leaf shadows and a single botanical sprig. Catalog-quality sharp detail, no laptop, no stationery, no readable text."
+    },
+    {
+      "name": "film",
+      "prompt": "Create one polished standalone illustrative concept image for a Doha creative agency website. Palette: Qatar maroon, cream, sand, restrained black. Editorial art direction, convincing materials, warm light. No ALQA logo, no client names, no watermark, no readable text. Landscape 3:2. Distinct complete scene, not a collage sheet. Cinematic behind-the-scenes film production still: close view of a cinema camera monitor and lens with an elegantly lit interview set behind it, two chairs, warm practical lamp, acoustic panels, maroon backdrop and crew equipment silhouettes. No people. Atmospheric contrast, detailed camera gear, different perspective from the existing wide production studio."
+    }
+  ]
+}
