@@ -16,7 +16,7 @@ Verify with `npm run lint` and `npm run build`. Serve the production build with 
 - How We Work: Brief, Create, Review, Publish and report.
 - Contact: WhatsApp proposals and free Digital Health Check.
 
-Design: maroon #8A1538, cream #FBF8F3, sand #EFE6D8, ink #1C1917. DM Serif Display headings and IBM Plex Sans / Arabic body type. Supplied ALQA logo remains intact.
+Design: logo-matched navy #202D64, blue #247EBD, cyan #2FA9DD, cool white #F7FAFF and ink #141C3C. Manrope upright headings, Inter body text and IBM Plex Sans Arabic. Supplied ALQA logo remains intact.
 
 ## Configure before publishing
 
@@ -26,10 +26,16 @@ Add approved client photos and videos under public/work. app/content.ts holds th
 
 No genuine client media was supplied in the brief. All missing-media areas are explicitly labeled. Work category pages are not represented as completed client projects. No prices, internal costs, salaries, or unapproved performance figures are published.
 
-Full Arabic routing is deferred per the brief. Current Arabic touches use native-script typography and RTL attributes; have a native writer review the translations before launch.
+English and Arabic are selected from the header. Each page shows one selected language, with RTL layout for Arabic and a browser-persisted choice. Translation strings live in app/ui/Language.tsx.
 
 The prior Vite/Kinera source remains under src/ for reference and is excluded from the Next.js build.
 
 ## Image update
 Ten generated illustrative visuals now fill the hero, service cards, galleries, packages, work pages and page banners. Seven new assets cover social content, branding, websites, advertising, launch packages, product photography and filmmaking, with distinct images for each main service and work card. They are marked as illustrative. See public/images/ASSET-NOTES.md and public/images/NEW-VISUAL-PROMPTS.json for provenance and prompts. Replace these with approved ALQA media when available.
 
+
+Language selector: English / العربية, one language at a time. Arabic includes RTL layout and translated page content. Selection persists in the browser across pages.
+
+All ten illustrative website assets now use the logo-matched navy/blue/cyan/white palette. Active assets are public/images/*-blue.png; exact prompts are saved in public/images/LOGO-MATCHED-VISUAL-PROMPTS.json. Older variants remain for reference.
+
+All ten illustrative website assets now use the logo-matched navy/blue/cyan/white palette. Active assets are public/images/*-blue.png; exact prompts are saved in public/images/LOGO-MATCHED-VISUAL-PROMPTS.json. Older variants remain for reference.

@@ -1,0 +1,82 @@
+{
+  "generator": "Built-in image generation",
+  "purpose": "Illustrative service concepts; not completed client projects",
+  "palette": [
+    "#202D64",
+    "#247EBD",
+    "#2FA9DD",
+    "#FFFFFF"
+  ],
+  "assets": [
+    {
+      "name": "studio",
+      "kind": "photorealistic-natural",
+      "scene": "Wide cinematic production studio hero banner, 16:9 framing. A matte black professional cinema camera on tripod, softbox and light stands in the RIGHT third, cool white sculptural set, navy upholstered chair and subtle cyan practical lights. LEFT half is dark navy quiet wall and negative space for website headline overlay. Convincing working studio, cool neutral daylight, elegant cinematic depth. No people.",
+      "prompt": "Use case: photorealistic-natural. Asset type: illustrative service image for ALQA's navy/blue creative agency website. Cohesive ALQA website visual family. Navy #202D64, medium blue #247EBD, cyan #2FA9DD, crisp white and cool pale blue. Natural subject colors allowed, but ALL graphic design, props, packaging and set accents use navy/blue/white. No maroon, red, yellow or beige brand accents. Premium commercial photography, realistic physical materials, subtle grain, beautiful clear light and generous clean composition. No readable lettering, no invented ALQA logo, no watermarks. Generate one complete standalone landscape image, not a contact sheet. Scene and composition: Wide cinematic production studio hero banner, 16:9 framing. A matte black professional cinema camera on tripod, softbox and light stands in the RIGHT third, cool white sculptural set, navy upholstered chair and subtle cyan practical lights. LEFT half is dark navy quiet wall and negative space for website headline overlay. Convincing working studio, cool neutral daylight, elegant cinematic depth. No people.",
+      "savedPath": "public/images/studio-blue.png"
+    },
+    {
+      "name": "food",
+      "kind": "photorealistic-natural",
+      "scene": "Landscape 3:2 overhead menu photography. Beautiful naturally golden grilled chicken and aromatic rice with herbs, hummus and fresh salad on crisp white ceramic plates. Navy linen napkin, cool white stone table, restrained cyan-blue ceramic side dish. Appetizing realistic food, bright natural daylight, no device, no graphic text, no red cloth.",
+      "prompt": "Use case: photorealistic-natural. Asset type: illustrative service image for ALQA's navy/blue creative agency website. Cohesive ALQA website visual family. Navy #202D64, medium blue #247EBD, cyan #2FA9DD, crisp white and cool pale blue. Natural subject colors allowed, but ALL graphic design, props, packaging and set accents use navy/blue/white. No maroon, red, yellow or beige brand accents. Premium commercial photography, realistic physical materials, subtle grain, beautiful clear light and generous clean composition. No readable lettering, no invented ALQA logo, no watermarks. Generate one complete standalone landscape image, not a contact sheet. Scene and composition: Landscape 3:2 overhead menu photography. Beautiful naturally golden grilled chicken and aromatic rice with herbs, hummus and fresh salad on crisp white ceramic plates. Navy linen napkin, cool white stone table, restrained cyan-blue ceramic side dish. Appetizing realistic food, bright natural daylight, no device, no graphic text, no red cloth.",
+      "savedPath": "public/images/food-blue.png"
+    },
+    {
+      "name": "social",
+      "kind": "ads-marketing",
+      "scene": "Landscape 3:2 overhead social-content planning flat lay. Sleek smartphone centered showing a nine-tile wellness lifestyle feed: product photography, plant details, modern Doha architecture and navy/cyan abstract editorial designs. Square printed content cards around it, navy notebook, silver pen, cool white table. Blue-only graphics, believable screen reflections, crisp elegant balanced hierarchy.",
+      "prompt": "Use case: ads-marketing. Asset type: illustrative service image for ALQA's navy/blue creative agency website. Cohesive ALQA website visual family. Navy #202D64, medium blue #247EBD, cyan #2FA9DD, crisp white and cool pale blue. Natural subject colors allowed, but ALL graphic design, props, packaging and set accents use navy/blue/white. No maroon, red, yellow or beige brand accents. Premium commercial photography, realistic physical materials, subtle grain, beautiful clear light and generous clean composition. No readable lettering, no invented ALQA logo, no watermarks. Generate one complete standalone landscape image, not a contact sheet. Scene and composition: Landscape 3:2 overhead social-content planning flat lay. Sleek smartphone centered showing a nine-tile wellness lifestyle feed: product photography, plant details, modern Doha architecture and navy/cyan abstract editorial designs. Square printed content cards around it, navy notebook, silver pen, cool white table. Blue-only graphics, believable screen reflections, crisp elegant balanced hierarchy.",
+      "savedPath": "public/images/social-blue.png"
+    },
+    {
+      "name": "branding",
+      "kind": "product-mockup",
+      "scene": "Landscape 3:2 premium business brand-identity presentation. Embossed navy folder, white business cards with subtle abstract blue geometry, navy and white stationery, open brochure, cyan color swatch card and rigid white packaging box on cool pale-blue stone. Top-down diagonal composition, tactile paper and refined embossing. Abstract neutral geometric mark only. No laptop or phone.",
+      "prompt": "Use case: product-mockup. Asset type: illustrative service image for ALQA's navy/blue creative agency website. Cohesive ALQA website visual family. Navy #202D64, medium blue #247EBD, cyan #2FA9DD, crisp white and cool pale blue. Natural subject colors allowed, but ALL graphic design, props, packaging and set accents use navy/blue/white. No maroon, red, yellow or beige brand accents. Premium commercial photography, realistic physical materials, subtle grain, beautiful clear light and generous clean composition. No readable lettering, no invented ALQA logo, no watermarks. Generate one complete standalone landscape image, not a contact sheet. Scene and composition: Landscape 3:2 premium business brand-identity presentation. Embossed navy folder, white business cards with subtle abstract blue geometry, navy and white stationery, open brochure, cyan color swatch card and rigid white packaging box on cool pale-blue stone. Top-down diagonal composition, tactile paper and refined embossing. Abstract neutral geometric mark only. No laptop or phone.",
+      "savedPath": "public/images/branding-blue.png"
+    },
+    {
+      "name": "website",
+      "kind": "ui-mockup",
+      "scene": "Landscape 3:2 silver laptop and slim smartphone prominently display a beautifully designed online perfume storefront. White clean ecommerce UI, navy header and medium-blue buttons, restrained cyan accents, realistic product cards showing elegant glass perfume bottles. Devices on cool white desk, pale blue studio backdrop, gentle shadows. Focus on sharp convincing screens and mobile-responsive design. No stationery.",
+      "prompt": "Use case: ui-mockup. Asset type: illustrative service image for ALQA's navy/blue creative agency website. Cohesive ALQA website visual family. Navy #202D64, medium blue #247EBD, cyan #2FA9DD, crisp white and cool pale blue. Natural subject colors allowed, but ALL graphic design, props, packaging and set accents use navy/blue/white. No maroon, red, yellow or beige brand accents. Premium commercial photography, realistic physical materials, subtle grain, beautiful clear light and generous clean composition. No readable lettering, no invented ALQA logo, no watermarks. Generate one complete standalone landscape image, not a contact sheet. Scene and composition: Landscape 3:2 silver laptop and slim smartphone prominently display a beautifully designed online perfume storefront. White clean ecommerce UI, navy header and medium-blue buttons, restrained cyan accents, realistic product cards showing elegant glass perfume bottles. Devices on cool white desk, pale blue studio backdrop, gentle shadows. Focus on sharp convincing screens and mobile-responsive design. No stationery.",
+      "savedPath": "public/images/website-blue.png"
+    },
+    {
+      "name": "advertising",
+      "kind": "ads-marketing",
+      "scene": "Landscape 3:2 contemporary Doha-inspired waterfront residence and palms at blue hour with restrained natural warm window light. Navy evening sky, cyan-blue pool reflections, sleek foreground smartphone shows same residence as vertical real-estate ad with white/blue graphic blocks. Sophisticated architectural photography and clear enquiry interface without readable text. No red or maroon campaign graphics.",
+      "prompt": "Use case: ads-marketing. Asset type: illustrative service image for ALQA's navy/blue creative agency website. Cohesive ALQA website visual family. Navy #202D64, medium blue #247EBD, cyan #2FA9DD, crisp white and cool pale blue. Natural subject colors allowed, but ALL graphic design, props, packaging and set accents use navy/blue/white. No maroon, red, yellow or beige brand accents. Premium commercial photography, realistic physical materials, subtle grain, beautiful clear light and generous clean composition. No readable lettering, no invented ALQA logo, no watermarks. Generate one complete standalone landscape image, not a contact sheet. Scene and composition: Landscape 3:2 contemporary Doha-inspired waterfront residence and palms at blue hour with restrained natural warm window light. Navy evening sky, cyan-blue pool reflections, sleek foreground smartphone shows same residence as vertical real-estate ad with white/blue graphic blocks. Sophisticated architectural photography and clear enquiry interface without readable text. No red or maroon campaign graphics.",
+      "savedPath": "public/images/advertising-blue.png"
+    },
+    {
+      "name": "launch",
+      "kind": "product-mockup",
+      "scene": "Landscape 3:2 new cafe launch kit on cool white tabletop: navy takeaway coffee cups with white lids, white carry bag with medium-blue geometric emblem, navy menu cards, white pastry box, business cards and tablet displaying a navy/cyan cafe website. Clean commercial art direction, crisp daylight and subtle blue shadows, coordinated tactile materials, diagonal balanced staging.",
+      "prompt": "Use case: product-mockup. Asset type: illustrative service image for ALQA's navy/blue creative agency website. Cohesive ALQA website visual family. Navy #202D64, medium blue #247EBD, cyan #2FA9DD, crisp white and cool pale blue. Natural subject colors allowed, but ALL graphic design, props, packaging and set accents use navy/blue/white. No maroon, red, yellow or beige brand accents. Premium commercial photography, realistic physical materials, subtle grain, beautiful clear light and generous clean composition. No readable lettering, no invented ALQA logo, no watermarks. Generate one complete standalone landscape image, not a contact sheet. Scene and composition: Landscape 3:2 new cafe launch kit on cool white tabletop: navy takeaway coffee cups with white lids, white carry bag with medium-blue geometric emblem, navy menu cards, white pastry box, business cards and tablet displaying a navy/cyan cafe website. Clean commercial art direction, crisp daylight and subtle blue shadows, coordinated tactile materials, diagonal balanced staging.",
+      "savedPath": "public/images/launch-blue.png"
+    },
+    {
+      "name": "product",
+      "kind": "product-mockup",
+      "scene": "Landscape 3:2 studio product campaign. Three elegant frosted-glass skincare bottles with navy and white unlettered labels, cyan-blue accent caps, arranged on white sculptural plinths against deep navy seamless backdrop. Beautiful controlled cool rim light, condensation and realistic translucent glass, premium minimal cosmetics photography. No amber/red bottles, no lettering.",
+      "prompt": "Use case: product-mockup. Asset type: illustrative service image for ALQA's navy/blue creative agency website. Cohesive ALQA website visual family. Navy #202D64, medium blue #247EBD, cyan #2FA9DD, crisp white and cool pale blue. Natural subject colors allowed, but ALL graphic design, props, packaging and set accents use navy/blue/white. No maroon, red, yellow or beige brand accents. Premium commercial photography, realistic physical materials, subtle grain, beautiful clear light and generous clean composition. No readable lettering, no invented ALQA logo, no watermarks. Generate one complete standalone landscape image, not a contact sheet. Scene and composition: Landscape 3:2 studio product campaign. Three elegant frosted-glass skincare bottles with navy and white unlettered labels, cyan-blue accent caps, arranged on white sculptural plinths against deep navy seamless backdrop. Beautiful controlled cool rim light, condensation and realistic translucent glass, premium minimal cosmetics photography. No amber/red bottles, no lettering.",
+      "savedPath": "public/images/product-blue.png"
+    },
+    {
+      "name": "film",
+      "kind": "photorealistic-natural",
+      "scene": "Landscape 3:2 close cinema-camera rig in the foreground, monitor showing a prepared corporate interview scene. Background elegant navy upholstered interview chairs, cool white wall and soft cyan-blue practical lighting. Realistic lens, cables, studio stands, beautiful depth of field, authentic production environment. Camera central-right, blue-led grading, no people or logos.",
+      "prompt": "Use case: photorealistic-natural. Asset type: illustrative service image for ALQA's navy/blue creative agency website. Cohesive ALQA website visual family. Navy #202D64, medium blue #247EBD, cyan #2FA9DD, crisp white and cool pale blue. Natural subject colors allowed, but ALL graphic design, props, packaging and set accents use navy/blue/white. No maroon, red, yellow or beige brand accents. Premium commercial photography, realistic physical materials, subtle grain, beautiful clear light and generous clean composition. No readable lettering, no invented ALQA logo, no watermarks. Generate one complete standalone landscape image, not a contact sheet. Scene and composition: Landscape 3:2 close cinema-camera rig in the foreground, monitor showing a prepared corporate interview scene. Background elegant navy upholstered interview chairs, cool white wall and soft cyan-blue practical lighting. Realistic lens, cables, studio stands, beautiful depth of field, authentic production environment. Camera central-right, blue-led grading, no people or logos.",
+      "savedPath": "public/images/film-blue.png"
+    },
+    {
+      "name": "creative",
+      "kind": "product-mockup",
+      "scene": "Landscape 3:2 integrated creative campaign flat lay distinct from other brand imagery: open white campaign lookbook with blue abstract layouts, navy folder, smartphone showing a premium wellness landing page, cyan geometric swatch cards and one frosted glass bottle. Cool white stone desk, silver pen, subtle daylight shadows. Strong layered editorial composition, no laptop, no readable typography.",
+      "prompt": "Use case: product-mockup. Asset type: illustrative service image for ALQA's navy/blue creative agency website. Cohesive ALQA website visual family. Navy #202D64, medium blue #247EBD, cyan #2FA9DD, crisp white and cool pale blue. Natural subject colors allowed, but ALL graphic design, props, packaging and set accents use navy/blue/white. No maroon, red, yellow or beige brand accents. Premium commercial photography, realistic physical materials, subtle grain, beautiful clear light and generous clean composition. No readable lettering, no invented ALQA logo, no watermarks. Generate one complete standalone landscape image, not a contact sheet. Scene and composition: Landscape 3:2 integrated creative campaign flat lay distinct from other brand imagery: open white campaign lookbook with blue abstract layouts, navy folder, smartphone showing a premium wellness landing page, cyan geometric swatch cards and one frosted glass bottle. Cool white stone desk, silver pen, subtle daylight shadows. Strong layered editorial composition, no laptop, no readable typography.",
+      "savedPath": "public/images/creative-blue.png"
+    }
+  ]
+}
