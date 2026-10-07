@@ -1,11 +1,12 @@
 'use client';
 import {Children,cloneElement,createContext,isValidElement,useContext,useEffect,useState,type ReactNode,type ReactElement} from 'react';
 import {services,packages,industries,steps,projects} from '../content';
+import {servicePages} from '../service-pages';
 type Locale='en'|'ar';
 const LanguageContext=createContext<{locale:Locale;setLocale:(locale:Locale)=>void}>({locale:'en',setLocale:()=>{}});
 const translations:Record<string,string>=Object.fromEntries([
  ...services,...packages,...industries,...steps,...projects,
-].map(item=>[item.title,item.arabic]));
+].map(item=>[item.title,item.arabic]).concat(servicePages.map(item=>[item.name,item.arabic])));
 const copy=`
 Home|الرئيسية
 Our Work|أعمالنا
@@ -212,6 +213,74 @@ Retail going online|التجارة الإلكترونية
 Contracting & trading (B2B)|المقاولات والتجارة
 Real estate|العقارات
 ALQA|ألقا
+Blog|المدونة
+BLOG|المدونة
+SERVICES|الخدمات
+Start a project|ابدأ مشروعك
+START A PROJECT|ابدأ مشروعك
+Tell us what|أخبرنا بما
+you have in mind.|يدور في ذهنك.
+A few details are enough. A real person from our Doha team will reply with next steps or a proposal.|بعض التفاصيل تكفي. سيرد عليك شخص حقيقي من فريقنا في الدوحة بالخطوات التالية أو بعرض.
+Your name|الاسم
+Business name|اسم النشاط التجاري
+Phone / WhatsApp|الهاتف / واتساب
+Email|البريد الإلكتروني
+What do you need?|ما الذي تحتاجه؟
+Choose a service|اختر خدمة
+When would you like to start?|متى تود أن تبدأ؟
+Choose a timeline|اختر موعداً
+As soon as possible|في أقرب وقت
+Within a month|خلال شهر
+In 1–3 months|خلال ١–٣ أشهر
+Just exploring|أستكشف الخيارات فقط
+A package|باقة
+Not sure yet|لست متأكداً بعد
+Tell us a little about the project|أخبرنا قليلاً عن المشروع
+Add a phone number or email so we can reply.|أضف رقم هاتف أو بريداً إلكترونياً لنتمكن من الرد.
+Send my project details|أرسل تفاصيل مشروعي
+Sending…|جارٍ الإرسال…
+Thank you.|شكراً لك.
+Almost there.|اقتربنا.
+Continue on WhatsApp|تابع عبر واتساب
+Send on WhatsApp instead|أرسل عبر واتساب بدلاً من ذلك
+Please add your name.|يرجى إضافة اسمك.
+Please add a phone/WhatsApp number or an email so we can reply.|يرجى إضافة رقم هاتف/واتساب أو بريد إلكتروني لنتمكن من الرد.
+Please check your email address.|يرجى التحقق من بريدك الإلكتروني.
+Please check your phone number.|يرجى التحقق من رقم هاتفك.
+Our Doha team has your details and will be in touch soon.|وصلت تفاصيلك إلى فريقنا في الدوحة وسنتواصل معك قريباً.
+Our online form is being connected. Send these details to us on WhatsApp and we will reply there.|نعمل على ربط النموذج الإلكتروني. أرسل هذه التفاصيل عبر واتساب وسنرد عليك هناك.
+Our online form is being connected. Please check back soon.|نعمل على ربط النموذج الإلكتروني. يرجى العودة قريباً.
+Something went wrong sending your details. Please try again or message us on WhatsApp.|حدث خطأ أثناء إرسال التفاصيل. يرجى المحاولة مرة أخرى أو مراسلتنا عبر واتساب.
+Fill in the project form|املأ نموذج المشروع
+TRUSTED BY BUSINESSES IN QATAR|موثوق من شركات في قطر
+Clients we work with|عملاؤنا
+SPECIALIST SERVICES|خدمات متخصصة
+Find the right|اختر الخدمة
+service for you.|المناسبة لك.
+New|جديد
+Google Business profile management|إدارة الملف التجاري على جوجل
+WHAT’S INCLUDED|ما تشمله الخدمة
+Everything handled|كل شيء ينفذه
+by one Doha team.|فريق واحد في الدوحة.
+EXAMPLES|أمثلة
+What this|كيف يمكن
+can look like.|أن يبدو العمل.
+These examples describe typical projects with illustrative visuals. They are not completed client projects.|تصف هذه الأمثلة مشاريع نموذجية بصور توضيحية، وليست مشاريع منجزة لعملاء.
+FAQ|الأسئلة الشائعة
+Questions about|أسئلة حول
+FROM THE BLOG|من المدونة
+MORE FROM THE BLOG|المزيد من المدونة
+RELATED SERVICES|خدمات ذات صلة
+Breadcrumb|مسار التنقل
+Ideas for growing|أفكار للنمو
+in Qatar.|في قطر.
+Practical guides on social media, photography, websites and advertising, written by our Doha team.|أدلة عملية حول التواصل الاجتماعي والتصوير والمواقع والإعلانات، يكتبها فريقنا في الدوحة.
+Read the article|اقرأ المقال
+Frequently asked questions|الأسئلة الشائعة
+CLIENT CASE STUDY|دراسة حالة لعميل
+The challenge|التحدي
+Our approach|نهجنا
+Results|النتائج
 `;
 for(const line of copy.trim().split('\n')){const [key,value]=line.split('|');translations[key]=value;}
 function translate(text:string,locale:Locale):string{

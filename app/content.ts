@@ -25,8 +25,12 @@ export const steps = [
  {title:'Review',arabic:'نراجع',text:'We check every piece first. You review the work and we refine it together before publishing.'},
  {title:'Publish and report',arabic:'ننشر ونقيس',text:'We launch the approved work, review performance and send a clear report with the next steps.'},
 ];
-export type Project = {slug:string;title:string;arabic:string;category:string;industry:string;brief:string;made:string[];image?:string;video?:string;before?:string;after?:string;approvedResult?:string;illustrative?:boolean};
+export type CaseStudy = {client:string;clientLogo?:string;challenge:string;approach:string;results:string[];testimonial?:{quote:string;name:string;role:string}};
+export type Project = {slug:string;title:string;arabic:string;category:string;industry:string;brief:string;made:string[];image?:string;video?:string;before?:string;after?:string;approvedResult?:string;illustrative?:boolean;caseStudy?:CaseStudy};
 // Add only client-approved media and results. Empty media produces an explicit placeholder.
+// A client-approved case study is a project with illustrative:false and a caseStudy, e.g.
+// {slug:'cafe-launch',title:'Café launch',arabic:'…',category:'Social',industry:industries[0].title,brief:'…',made:['…'],image:'/work/cafe/hero.jpg',
+//  caseStudy:{client:'Client name',clientLogo:'/clients/client.svg',challenge:'…',approach:'…',results:['Approved result'],testimonial:{quote:'…',name:'…',role:'…'}}}
 export const projects: Project[] = [
  {image:'/images/food-blue.png',illustrative:true,slug:'food-content',title:'Food & menu photography',arabic:'تصوير الأطعمة',category:'Photo & Video',industry:industries[0].title,brief:'Show the food clearly, from the menu to the delivery app.',made:['Food shoot','Menu images','Delivery-app photo sets']},
  {image:'/images/social-blue.png',illustrative:true,slug:'bilingual-social',title:'Bilingual social content',arabic:'محتوى بالعربية والإنجليزية',category:'Social',industry:industries[1].title,brief:'Bring a consistent Arabic and English voice to social media.',made:['Monthly calendar','Designed posts','Reels and captions']},
@@ -35,9 +39,12 @@ export const projects: Project[] = [
  {image:'/images/advertising-blue.png',illustrative:true,slug:'property-campaign',title:'Property campaign',arabic:'حملة عقارية',category:'Ads',industry:industries[3].title,brief:'Connect a property story with a clear enquiry journey.',made:['Ad creatives','Landing page','Lead campaign']},
  {image:'/images/film-blue.png',illustrative:true,slug:'brand-film',title:'Brand & corporate film',arabic:'فيلم العلامة التجارية',category:'Photo & Video',industry:industries[2].title,brief:'Tell the company story through the people and work behind it.',made:['Shoot direction','Corporate video','Social edits']},
 ];
+// Client logo strip under the homepage hero. Add only clients who approved logo use; the strip stays hidden while empty.
+// Put logo files (SVG or transparent PNG) in public/clients, e.g. {name:'Client name',logo:'/clients/client.svg'}
+export const clients: {name:string;logo:string}[] = [];
 export const media = { heroVideo:'', heroImage:'/images/studio-blue.png', studioShowreel:'' };
 export const whatsappNumber = (process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '').replace(/\D/g,'');
 export function whatsappHref(kind:'check'|'proposal'='proposal',topic='') {
  const message=kind==='check' ? 'Hello ALQA, I would like a free Digital Health Check for my Instagram, Google Business profile and website.' : `Hello ALQA, I would like to request a proposal${topic ? ` for ${topic}` : ''}.`;
- return whatsappNumber ? `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}` : `/contact?enquiry=${kind}${topic ? `&service=${encodeURIComponent(topic)}` : ''}`;
+ return whatsappNumber ? `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}` : `/contact?enquiry=${kind}${topic ? `&service=${encodeURIComponent(topic)}` : ''}#start-a-project`;
 }

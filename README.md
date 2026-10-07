@@ -39,3 +39,13 @@ Language selector: English / العربية, one language at a time. Arabic incl
 All ten illustrative website assets now use the logo-matched navy/blue/cyan/white palette. Active assets are public/images/*-blue.png; exact prompts are saved in public/images/LOGO-MATCHED-VISUAL-PROMPTS.json. Older variants remain for reference.
 
 All ten illustrative website assets now use the logo-matched navy/blue/cyan/white palette. Active assets are public/images/*-blue.png; exact prompts are saved in public/images/LOGO-MATCHED-VISUAL-PROMPTS.json. Older variants remain for reference.
+
+## Growth and SEO update (October 2026)
+
+- Start a project form: on Contact, at the bottom of Home, Services, every service page and every blog post. Submissions go to `ENQUIRY_WEBHOOK_URL` as JSON (name, business, phone, email, service, timeline, message). It includes a honeypot spam field, server-side validation and a "Continue on WhatsApp" link once `NEXT_PUBLIC_WHATSAPP_NUMBER` is set. Calls to action that fall back to Contact preselect the service in the form.
+- Client logo strip under the homepage hero: add approved logos to `public/clients` and list them in `clients` in app/content.ts. The strip stays hidden while the list is empty.
+- Client-approved case studies: give a project `illustrative:false` and a `caseStudy` (client, logo, challenge, approach, results, testimonial). See the example comment in app/content.ts. The "illustrative concepts" note on Home disappears once no illustrative projects remain.
+- Service landing pages at /services/[slug], defined in app/service-pages.ts: Social Media Management Qatar, Food Photography Doha, Website Design Qatar, Google Ads Management Qatar, plus new QR Digital Menus, WhatsApp Business Setup, Google Business Profile Management and AI Receptionist & Chatbot. Each page has its own title, description, included list, examples, FAQ (with FAQPage schema), form and related links. FAQ answers describe working policies; confirm them before launch.
+- Blog at /blog, with posts in app/blog.ts (BlogPosting and FAQPage schema). Target two posts a month; add new posts to the top of the list.
+- SEO: default title "ALQA | Digital Marketing & Production Studio in Doha, Qatar", per-page canonical/Open Graph/Twitter metadata, a generated 1200×630 share image (app/opengraph-image.tsx), sitemap.xml, robots.txt, and LocalBusiness schema on every page. Fill the confirmed address, coordinates, hours and social profiles in `business` in app/site.ts; empty fields are left out of the schema.
+- Arabic: the new interface text is translated in app/ui/Language.tsx. Long service-page and blog copy is English until a native writer supplies the Arabic.
